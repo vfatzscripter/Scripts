@@ -1,0 +1,257 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local GUI = Mercury:Create{
+    Name = "Choose",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+---swipppppppppe to play aka tab---
+
+local Tab = GUI:Tab{
+	Name = "order oppo but got oddo ",
+	Icon = "rbxassetid://8569322835"
+}
+
+-----
+Tab:Button{
+	Name = "holy hub v1",
+	Description = nil,
+	Callback = function()loadstring(game:HttpGet(('https://pastebin.com/raw/FTBTP8W1'),true))() end
+}
+Tab:Button{
+	Name = "holy hub v2",
+	Description = nil,
+	Callback = function()loadstring(game:HttpGet(('https://pastebin.com/raw/8kS5PvaW'),true))() end
+}
+Tab:Button{
+	Name = "holy hub v3",
+	Description = nil,
+	Callback = function()loadstring(game:HttpGet(('https://pastebin.com/raw/htdniw3w'),true))() end
+}
+Tab:Button{
+	Name = "holy hub v4",
+	Description = nil,
+	Callback = function()local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() local Window = Library.CreateLib("Holy Hub V4", "Synapse") local Tab = Window:NewTab("Player") local Section = Tab:NewSection("Player Ability") Section:NewSlider("WalkSpeed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+local Tab = Window:NewTab("Scripts") local Section = Tab:NewSection("Auto Play FnF Mobile") Section:NewButton("Auto Player FnF Mobile", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Hitbox Expand")
+Section:NewButton("Hitbox Expander", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Backdoor")
+Section:NewButton("Backdoor Executor", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Babft Copy Build")
+Section:NewButton("Copy Build", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Fake Limited")
+Section:NewButton("Fake Limited", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/fakelimitedsv2/main/fakelimitedsv2", true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Mobile Keyboard")
+Section:NewButton("Mobile Keyboard", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Parkour Ninja")
+Section:NewButton("Parkour Ninja", "ButtonInfo", function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    wait(1)
+    vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "made by JN HH Gaming";
+ 
+   
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Made By Jn hh";
+    Text = "Hitbox and Inf Jump is on."; -- what the text says (ofc)
+    Duration = 60;
+})
+_G.HeadSize = 20
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.7
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+
+
+
+    print("Clicked")
+end) local Section = Tab:NewSection("Jn Hh Gaming Break in 2")
+Section:NewButton("Jn Hh Break in 2", "ButtonInfo", function()loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Auto Parry")
+Section:NewButton("Auto Parry", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/AutoBlock"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Netless (For Fe Scripts)") Section:NewButton("Netless", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Netless-Script-1161"))() 
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Fe Scripts")
+Section:NewButton("Fe Gyros Sword (Hats needed & Netless) ", "ButtonInfo", function()loadstring(game:HttpGet(('https://pastebin.com/raw/akJtVPbE'),true))()
+    print("Clicked")
+end) Section:NewButton("Fe Sonic Script", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
+    print("Clicked")
+end)  Section:NewButton("Fe Monster (Hats Needed & Netless)", "ButtonInfo", function()loadstring(game:HttpGet("https://pastebin.com/raw/ATCkUq97", true))()
+    print("Clicked")
+end) Section:NewButton("Fe Glitch", "ButtonInfo", function()loadstring(game:HttpGet(('https://pastefy.app/s6DE4bNC/raw'),true))()
+--Z X F E
+    print("Clicked")
+end) Section:NewButton("Fe bring", "ButtonInfo", function()loadstring(game:HttpGet(('https://pastebin.com/raw/iThJgCAS'),true))()
+    print("Clicked")
+end) Section:NewButton("Fe Ravanger Hands (Hats Needed & Netless)", "ButtonInfo", function()loadstring(game:HttpGet('https://pastebin.com/raw/E4ckPJwZ'))()
+    print("Clicked")
+end) Section:NewButton("Fe Might guy (Hats Needed & netless)", "ButtonInfo", function()loadstring(game:HttpGet(("https://pastebin.com/raw/v5DsWKJF"),true))()
+    print("Clicked")
+end) Section:NewButton("Fe Eye-ozen (Hats Needed & netless)", "ButtonInfo", function()loadstring(game:HttpGet("https://pastebin.com/raw/MzLRpkAf", true))()
+    print("Clicked")
+end) Section:NewButton("Fe Zen (Hats needed & Netless)", "ButtonInfo", function()loadstring(game:HttpGet(('https://pastebin.com/raw/8S7sQ4EQ'),true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("More in V5")
+local Tab = Window:NewTab("Admin")
+local Section = Tab:NewSection("Infinite Yield")
+Section:NewButton("Infinite Yield", "ButtonInfo", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Nameless Admin")
+Section:NewButton("Nameless Admin", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+    print("Clicked")
+end)  local Section = Tab:NewSection("Fates Admin")
+Section:NewButton("Fates Admin", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+    print("Clicked")
+end) local Section = Tab:NewSection("Leg Admin V2")
+Section:NewButton("Leg Admin V2", "ButtonInfo", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Cmd-X")
+Section:NewButton("Cmd-X", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+Tags: 
+
+    print("Clicked")
+end) local Section = Tab:NewSection("Tiger Admin")
+Section:NewButton("Tiger Admin Prison life", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-(Cars-fixed!)-Prison-Life-Tiger-Admin-1706"))()
+    print("Clicked")
+end) local Tab = Window:NewTab("Hubs") 
+local Section = Tab:NewSection("Ice Hub") Section:NewButton("Ice Hub", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Eclipse Hub")
+Section:NewButton("Eclipse Hub", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Eclipse-hub-5796"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Butif Hub")
+Section:NewButton("Butif Hub", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-BUTIF-HUB-7066"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Hydro Hub")
+Section:NewButton("Hydro Hub", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Hoho Hub")
+Section:NewButton("Hoho Hub", "ButtonInfo", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    print("Clicked")
+end) local Section = Tab:NewSection("AirHub")
+Section:NewButton("Airhub Not 4 Mobile", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-AirHub-V2-7538"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("British Hub v15")
+Section:NewButton("British Hub V15", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-British-hub-v15-7683"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Freefrai Hub")
+Section:NewButton("Freefrai Hub blox fruit", "ButtonInfo", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/scrnohop/main/FreeFrai'))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Orangex Hub")
+Section:NewButton("Orangex Hub V5", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Pendulum Hub")
+Section:NewButton("Pendulum Hub", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Op-PENDULUM-HUB-Gui-R6-6490"))()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Fly Guis") local Section = Tab:NewSection("Fly Guis") Section:NewButton("Fly Gui V3", "ButtonInfo", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+    print("Clicked")
+end) Section:NewButton("Fly Gui V3", "ButtonInfo", function()loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    print("Clicked")
+end) local Tab = Window:NewTab("Arceus X")
+local Section = Tab:NewSection("Arceus X") Section:NewButton("Arceus X", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+    print("Clicked")
+end) local Tab = Window:NewTab("Blox Fruit") local Section = Tab:NewSection("Blox Fruit") Section:NewButton("HoHo hub", "ButtonInfo", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    print("Clicked")
+end) Section:NewButton("Freefrai", "ButtonInfo", function()
+    print("Clicked")
+end) Section:NewButton("Auto Collect Fruit", "ButtonInfo", function()Fruits = {
+"Bird: Falcon Fruit",
+"Diamond Fruit",
+"Light Fruit",
+"Rubber Fruit",
+"Barrier Fruit",
+"Magma Fruit",
+"Quake Fruit",
+"Blizzard Fruit",
+"Portal Fruit",
+"String Fruit",
+"Dark Fruit",
+"Sand Fruit",
+"Ice Fruit",
+"Spin Fruit",
+"Flame Fruit",
+"Bomb Fruit",
+"Smoke Fruit",
+"Spin Fruit",
+"Spring Fruit",
+"Kilo Fruit",
+"Revive Fruit",
+"Chop Fruit",
+"Human: Buddha Fruit",
+"Bird: Phoenix Fruit",
+"Rumble Fruit",
+"Paw Fruit",
+"Gravity Fruit",
+"Dough Fruit",
+"Control Fruit",
+"Venom Fruit",
+"Shadow Fruit",
+"Dragon Fruit" ,
+"Soul Fruit",
+"Leopard Fruit"
+}
+Valuable = {"Kilo Fruit","Spin Fruit","Spring Fruit","Bomb Fruit","Smoke Fruit","Spike Fruit","Flame Fruit","Bird: Falcon Fruit","Ice Fruit","Sand Fruit","Dark Fruit","Diamond Fruit","Light Fruit","Rubber Fruit","Barrier Fruit","Magna Fruit","Quake Fruit","String Fruit","Portal Fruit","Blizzard Fruit","Revive Fruit","Chop Fruit, Dough Fruit","Shadow Fruit","Venom Fruit","Control Fruit","Dragon Fruit","Soul Fruit","Leopard Fruit"} ------ it will stop the script if you got this fruit
+Webhook = "" --------------------------------Optional
+Store = true  --------------------------------Auto Store after it got the fruit
+Safeplace = true ----------------------------- Safeplace 
+Repeat = true --------------------------------- Repeat continues hopping
+-----------------------------------------------------------------------
+loadstring(game:HttpGet"https://gist.githubusercontent.com/NotHubris/4e6fdc88d84c30afa9b28c590f273bbf/raw")()
+    print("Clicked")
+end) Section:NewButton("Delta Blox Fruit", "ButtonInfo", function()loadstring(game:HttpGet("https://gitlab.com/littlekiller2927/deltacore/-/raw/main/deltabf.lua"))()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Guis")
+local Section = Tab:NewSection("Guis")
+Section:NewButton("UTG V3", "ButtonInfo", function()loadstring(game:HttpGet("https://scriptblox.com/raw/ULTIMATE-TROLLING-GUIUTG-V3-*OP*_1086"))()
+    print("Clicked")
+end)  Section:NewButton("1x1x1x1 Return", "ButtonInfo", function()loadstring(game:HttpGet(('https://pastebin.com/raw/3eAPmxFH'),true))()
+    print("Clicked")
+end) local Section = Tab:NewSection("Sorry boys cant find guis")
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Made by mystrxscriptedd & Joyboy")
+local Tab = Window:NewTab("Releases")
+local Section = Tab:NewSection("V4 Released Oct.5 8:57")
+local Section = Tab:NewSection("V3 Released Oct.4") local Section = Tab:NewSection("V2 Released Oct.4 12:57") local Section = Tab:NewSection("V1 Released Oct. 3")
+end) end
+}
