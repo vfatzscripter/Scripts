@@ -205,5 +205,11 @@ Tab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
+Tab:AddButton({
+	Name = "other script",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/vfatzscripter/Scripts/refs/heads/main/choose%20(2).txt'))() 
+  	end    
+})
 
 
