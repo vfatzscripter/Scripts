@@ -66,19 +66,17 @@ Section:NewButton("", "ButtonInfo", function()
     
 end)
 
--scripts
 local Tab = Window:NewTab("Scripts")
 Section:NewButton("", "ButtonInfo", function()
     
 end)
 
--hubs
+
 local Tab = Window:NewTab("Hubs")
 Section:NewButton("", "ButtonInfo", function()
     
 end)
 
--gui
 local Tab = Window:NewTab("Gui")
 Section:NewButton("", "ButtonInfo", function()
     
