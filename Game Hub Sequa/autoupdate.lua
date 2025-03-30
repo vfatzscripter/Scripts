@@ -1,5 +1,9 @@
 print("THIS IS OPEN SORCE") 
-print("loaded! ") 
+game.StarterGui:SetCore("SendNotification", {
+Title = "LOADED",
+Text = "ENJOY",
+Duration = 5,
+})
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Nick-s-Modded-KAVO-Lib/main/Nick'sModdedKavoLib.lua"))()
 
