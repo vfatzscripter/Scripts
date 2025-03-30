@@ -71,8 +71,8 @@ Section:NewButton("", "ButtonInfo", function()
 end)
 
 local Tab = Window:NewTab("Scripts")
-Section:NewButton("", "ButtonInfo", function()
-    
+Section:NewButton("Fly Gui V3", "Requested", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 end)
 
 
