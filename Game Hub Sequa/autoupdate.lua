@@ -1,3 +1,5 @@
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("HEY!","These might get you banned, please use wisely.",10)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Nick-s-Modded-KAVO-Lib/main/Nick'sModdedKavoLib.lua"))()
 
 local Window = Library.CreateLib("Game Hub Saqua BETA RELEASE", "Sentinel")
