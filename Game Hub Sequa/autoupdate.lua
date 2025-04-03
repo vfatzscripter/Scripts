@@ -142,132 +142,153 @@ Section:NewButton("Another max2007killer", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/Build-a-Boat-Premium-/main/OBFUSCATED.txt", true))()
 end)
 local Tab = Window:NewTab("buy")
+local Section = Tab:NewSection("Hi") 
+Section:NewButton("Buy 1 Pine tree", "Requires 8 Gold", function()
+local args = {
+    [1] = "PineTree",
+    [2] = 1
+}
 
-local Section = Tab:NewSection("HI")
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
-Section:NewButton("Buy 1 Pine tree", "Requires 80 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 1
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-end)
-Section:NewButton("Buy 5 Pine tree", "Requires 400 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 5
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+Section:NewButton("Buy 5 Pine tree", "Requires 4 Gold", function()
+local args = {
+    [1] = "PineTree",
+    [2] = 5
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 10 Pine tree", "Requires 800 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 10
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 10
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 20 Pine tree", "Requires 1,600 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 20
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 20
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
-Section:NewButton("Buy 40 Pine tree", "Requires 3,200 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 40
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+Section:NewButton("Buy 4 Pine tree", "Requires 3,200 Gold", function()
+local args = {
+    [1] = "PineTree",
+    [2] = 40
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 80 Pine tree", "Requires 6,400 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 80
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 80
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 100 Pine tree", "Requires 8,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 100
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 100
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 200 Pine tree", "Requires 16,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 200
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 200
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 400 Pine tree", "Requires 32,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 400
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 400
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
-Section:NewButton("Buy 800 Pine tree", "Requires 64,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 800
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+Section:NewButton("Buy 800 Pine tree", "Requires 64,00 Gold", function()
+local args = {
+    [1] = "PineTree",
+    [2] = 800
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 1,000 Pine tree", "Requires 80,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 1000
-        }  
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 1000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 10,000 Pine tree", "Requires 800,000 Gold", function()
-    loacl args = {
-        [1] = "PineTree",
-        [2] = 10000
-    }   
-    workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 10000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 100,000 Pine tree", "Requires 8,000,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 100000
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 100000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 1,000,000 Pine tree", "Requires 80,000,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 1000000
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 1000000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 10,000,000 Pine tree", "Requires 800,000,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 10000000
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 10000000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
 Section:NewButton("Buy 100,000,000 Pine tree", "Requires 8,000,000,000 Gold", function()
-    loacl args = {
-            [1] = "PineTree",
-            [2] = 100000000
-        }   
-        workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+local args = {
+    [1] = "PineTree",
+    [2] = 100000000
+}
+
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+
 end)
-Section:NewToggle("Buy PineTree", "ToggleInfo", function(state)
-    if state then
-        loacl args = {
-            [1] = "PineTree",
-            [2] = 1
-        }   workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-     
-    else
-        print("Toggle Off")
-    end
 end)
+
 
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("HI")
