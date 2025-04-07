@@ -50,6 +50,10 @@ end)
 Section:NewButton("zenox", "ButtonInfo", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
 end)
+Section:NewButton("Auto win Thai ver", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/rKSis1yk'))()
+end)
+
 
 local Tab = Window:NewTab("Key")
 local Section = Tab:NewSection("This zone have key!")
